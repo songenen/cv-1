@@ -30,7 +30,8 @@
       page-break-before: always;
       margin-top: 30px;
     }</style>
-  <style>body {}
+  <style>body {
+    }
 
     p {
       margin: .3em 0;
@@ -90,7 +91,8 @@
       top: 0;
       right: 0;
     }</style>
-  <style>.projects {}
+  <style>.projects {
+    }
 
     .projects p {
       color: #666;
@@ -100,62 +102,69 @@
       color: #f60;
     }
 
-    .projects>ol {
+    .projects > ol {
       margin-top: 0;
       list-style-position: inside;
       padding: 0;
     }
 
-    .projects>ol>li {
+    .projects > ol > li {
       margin-bottom: 24px;
     }
 
-    .projects>ol>li>header {
+    .projects > ol > li > header {
       display: flex;
       justify-content: space-between;
     }
 
-    .projects>ol>li h3 {
+    .projects > ol > li h3 {
       display: inline-block;
     }</style>
-  <style>.skills {}
+  <style>.skills {
+    }
 
     #skills {
 
       width: 500px;
       height: 270px;
     }
+
     @media print {
-      #skills{display:none;}
+      #skills {
+        display: none;
+      }
     }
 
 
-    .skills>.wrapper {
+    .skills > .wrapper {
       display: flex;
       justify-content: space-between;
     }
 
-    .skills>.wrapper>:first-child {
+    .skills > .wrapper > :first-child {
       margin-right: 24px;
     }
 
-    .skills>.wrapper>#skills {}
+    .skills > .wrapper > #skills {
+    }
 
-    .skills>.wrapper>ul {
+    .skills > .wrapper > ul {
       color: #666;
     }
 
-    .skills>.wrapper strong {
+    .skills > .wrapper strong {
       color: #f60;
     }
 
-    .skills>.wrapper>ul>li {
+    .skills > .wrapper > ul > li {
       line-height: 1.2;
       margin-bottom: 8px;
     }</style>
-  <style>.openSource {}
+  <style>.openSource {
+    }
 
-    .openSource>h2 {}
+    .openSource > h2 {
+    }
 
     .openSource header img {
       position: absolute;
@@ -163,9 +172,10 @@
       right: 0;
     }
 
-    .openSource>ul {}
+    .openSource > ul {
+    }
 
-    .openSource>ul>li {
+    .openSource > ul > li {
       margin-bottom: 24px;
     }
 
@@ -175,14 +185,18 @@
       justify-content: space-between;
     }
 
-    .openSource h3 {}</style>
-  <style>.jobs {}
+    .openSource h3 {
+    }</style>
+  <style>.jobs {
+    }
 
-    .jobs>h2 {}
+    .jobs > h2 {
+    }
 
-    .jobs>ol {}
+    .jobs > ol {
+    }
 
-    .jobs>ol>li {
+    .jobs > ol > li {
       margin: 12px 0;
     }
 
@@ -192,17 +206,17 @@
       margin-bottom: 12px;
     }
 
-    .jobs header>h3 {
+    .jobs header > h3 {
       font-size: 18px;
       color: #333;
     }
 
-    .jobs header>h4 {
+    .jobs header > h4 {
       margin-left: 1em;
       font-size: 18px;
     }
 
-    .jobs header>span {
+    .jobs header > span {
       font-size: 18px;
       margin-left: auto;
     }</style>
@@ -227,13 +241,46 @@
       #skills {
         width: auto;
       }
-      .jobs header{
+
+      .jobs header {
         flex-direction: column;
       }
-      .jobs header >h3,
-      .jobs header >h4,
-      .jobs header >span {
+
+      .jobs header > h3,
+      .jobs header > h4,
+      .jobs header > span {
         margin: 0;
+      }
+    }</style>
+  <style>img {
+      max-height: 100px;
+      right: 25vw;
+    }
+
+    @media (max-width: 500px) {
+      img {
+        display: none;
+      }
+    }
+
+    @media (min-width: 500px) {
+      p {
+        width: 85vh;
+      }
+    }
+
+    li {
+      margin-top: 10px;
+    }
+
+    .lalala {
+      margin-top: 100px;
+    }
+
+    @media (max-width: 500px) {
+      .lalala {
+        margin-top: auto;
+
       }
     }</style>
 </head>
@@ -242,7 +289,7 @@
 <article>
   <section class="bio">
     <h1>宋恩</h1>
-    <img src="/1.106c6bd6.jpg" alt="" width="100">
+    <img src="/1.106c6bd6.jpg">
     <p>
       男 | 22岁 | 前端开发工程师 | 深圳
     </p>
@@ -262,6 +309,10 @@
               <a href="https://songenn.gitee.io/sun-ui/#/">项目预览</a>
             </span>
         </header>
+        <div>
+          <img src="/sun.eb47166b.png">
+
+        </div>
         <p>
           一款基于 <strong>Vue3</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong> 的 UI 框架。
 
@@ -271,7 +322,8 @@
 
         </p>
         <p>
-          整体组件虽然简单，但对 <strong>Vue3</strong> 的特性掌握很有帮助，本次采用 <strong>Vite</strong> 来搭建项目，Vue3也更好的支持了TypeScript，可以更快速更便捷的开发
+          整体组件虽然简单，但对 <strong>Vue3</strong> 的特性掌握很有帮助，本次采用 <strong>Vite</strong> 来搭建项目，
+          Vue3也更好的支持了TypeScript，可以更快速更便捷的开发
         </p>
       </li>
       <li>
@@ -282,6 +334,8 @@
               <a href="http://songenn.gitee.io/morney-website/#/money">项目预览</a>
             </span>
         </header>
+        <img src="/morney-v.6733cae9.png">
+
         <p>
           这是一个基于 <strong>Vue</strong> / <strong>TypeScript</strong> 的多页面应用。
         </p>
@@ -298,6 +352,8 @@
               <a href="https://songenen.github.io/SSJ-R-Demo/index.html#/money">项目预览</a>
             </span>
         </header>
+        <img src="/morney-r.ceb042c1.png">
+
         <p>
           一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面记账应用。
         </p>
@@ -313,14 +369,11 @@
   </section>
 
 
-
-
-
   <section class="skills">
     <h2>技能</h2>
     <div class="wrapper">
       <ul>
-        <li>熟悉页面制作技巧，能将设计稿还原 </li>
+        <li>熟悉页面制作技巧，能将设计稿还原</li>
         <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
         <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
         <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Hooks 等</li>
@@ -330,7 +383,6 @@
       </ul>
     </div>
   </section>
-
 
 
   <section class="openSource">
@@ -344,7 +396,11 @@
           <a href="http://songenn.gitee.io/tans-1/index.html">项目预览</a>
           </span>
         </header>
+        <img src="/tans.803ddfb2.png">
+
         <p>使用 <strong>jQuery</strong> 实现的一个简易导航、日常使用方便快捷</p>
+        <p>可以快速添加一个常用网址，可以当作日常使用首页</p>
+        <p>简单有趣的学习过程中的项目</p>
       </li>
       <li class="page2">
         <header>
@@ -354,7 +410,11 @@
               <a href="http://songenn.gitee.io/pikachu/src/test.html">项目预览</a>
             </span>
         </header>
+        <img src="/pikachu.5d2b9fce.png">
+
         <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个练习小作品</p>
+        <p>实现了一个简单有趣的皮卡丘动态绘制的过程</p>
+
       </li>
       <li>
       </li>
@@ -363,7 +423,7 @@
 
 
   <section class="others">
-    <h2>其他链接</h2>
+    <h2 class="lalala">其他链接</h2>
     <ul>
       <li><a href="https://www.yuque.com/u1450344/rshsyg">我的博客</a>，记录学习过程中的知识</li>
       <li><a href="https://github.com/songenen">我的 GitHub</a>，学习过程中的项目仓库</li>
@@ -374,7 +434,8 @@
     <h2>教育经历</h2>
     <p>
       <span><time>2016年</time>~<time>2020年</time></span>
-      哈尔滨石油学院 机械电子工程 本科</p>
+      哈尔滨石油学院 机械电子工程 本科
+    </p>
   </section>
 
 </article>
