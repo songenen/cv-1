@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e164ab-7709-4964-a292-072c7549ab19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.cache/9c/5dcc932706cf61af824ccf4c45ce97.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/9c/5dcc932706cf61af824ccf4c45ce97.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/fa/2d3b35806ffe851e1e52dfa0aa396c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fa/2d3b35806ffe851e1e52dfa0aa396c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +66,10 @@
       <workItem from="1601550230053" duration="1302000" />
       <workItem from="1601553896133" duration="374000" />
       <workItem from="1601800792091" duration="102000" />
-      <workItem from="1601905821566" duration="3544000" />
+      <workItem from="1601905821566" duration="3592000" />
+      <workItem from="1602132249006" duration="608000" />
+      <workItem from="1602133068046" duration="9000" />
+      <workItem from="1602213549313" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1601289988240</created>
@@ -195,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601909313897</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update">
+      <created>1601909370386</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601909370386</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <created>1601909388761</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601909388761</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -214,10 +237,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="659" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600760970445" />
-    <state x="530" y="0" key="CommitChangelistDialog2" timestamp="1601909313378">
+    <state x="530" y="0" key="CommitChangelistDialog2" timestamp="1601909388226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="530" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601909313378" />
+    <state x="530" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601909388226" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1601473397443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

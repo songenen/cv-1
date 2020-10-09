@@ -271,11 +271,14 @@
   </style>
   <style>
     img {
-      max-height: 100px;
+      max-height: 80px;
       position: absolute;
       right: 30px;
     }
+.zhaopian{
+  max-height: 120px;
 
+}
     @media (max-width: 500px) {
       img {
         display: none;
@@ -307,9 +310,9 @@
 <article>
   <section class="bio">
     <h1>宋恩</h1>
-    <img src="./images/1.jpg">
+    <img class="zhaopian" src="./images/1.jpg">
     <p>
-      男 | 22岁 | 前端开发工程师 | 深圳
+      男 | 22岁 | 前端开发工程师 
     </p>
     <p>
       手机：17604517939 | 微信：17604517939 | 邮箱：614750803@qq.com
@@ -339,7 +342,7 @@
         </p>
         <p>
           整体组件虽然简单，但对 <strong>Vue3</strong> 的特性掌握很有帮助，本次采用 <strong>Vite</strong> 来搭建项目
-        <p>Vue3也更好的支持了TypeScript，可以更快速更便捷的开发</p>
+        <p>使用了 <strong>Ref</strong>  / <strong>Setup</strong>  / <strong>watchEffect</strong> 等 Vue3 Compositions Api 来开发</p>
         </p>
       </li>
       <li>
@@ -384,24 +387,10 @@
     </ol>
   </section>
 
-  <section class="skills">
-    <h2>技能</h2>
-    <div class="wrapper">
-      <ul>
-        <li>熟悉页面制作技巧，能将设计稿还原</li>
-        <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
-        <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-        <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Hooks 等</li>
-        <li>熟悉 ES6，包括 let / Promise / 析构赋值</li>
-        <li>了解 <strong>TypeScript</strong> 的使用，在项目中有 TS 实现的</li>
-        <li>了解 <strong>Webpack </strong>的配置</li>
-      </ul>
-    </div>
-  </section>
+
 
 
   <section class="openSource">
-    <h2>开源项目</h2>
     <ul>
       <li>
         <header>
@@ -416,7 +405,7 @@
         <p>可以快速添加一个常用网址，可以当作日常使用首页</p>
         <p>简单有趣的学习过程中的项目</p>
       </li>
-      <li class="page2">
+      <li >
         <header>
           <h3>会动的皮卡丘</h3>
           <span>
@@ -433,9 +422,23 @@
     </ul>
   </section>
 
+  <section class="skills">
+    <h2>技能</h2>
+    <div class="wrapper">
+      <ul>
+        <li>熟悉页面制作技巧，能将设计稿还原</li>
+        <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
+        <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
+        <li>熟练掌握 React全家桶的使用，包括 create-react-app、ReactRouter、Hooks 等</li>
+        <li>熟悉 ES6，包括 let / Promise / 析构赋值</li>
+        <li>了解 <strong>TypeScript</strong> 的使用，在项目中有 TS 实现的</li>
+        <li>了解 <strong>Webpack </strong>的配置</li>
+      </ul>
+    </div>
+  </section>
 
   <section class="others">
-    <h2 class="lalala">其他链接</h2>
+    <h2 class="page2">其他链接</h2>
     <ul>
       <li><a href="https://www.yuque.com/u1450344/rshsyg">我的博客</a>，记录学习过程中的知识</li>
       <li><a href="https://github.com/songenen">我的 GitHub</a>，学习过程中的项目仓库</li>
