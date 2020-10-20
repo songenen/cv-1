@@ -63,6 +63,7 @@
       <workItem from="1602133068046" duration="9000" />
       <workItem from="1602213549313" duration="1909000" />
       <workItem from="1602936184360" duration="687000" />
+      <workItem from="1603110704250" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1601289988240</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602936223150</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update">
+      <created>1603110714050</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1603110714050</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -244,10 +252,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="659" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600760970445" />
-    <state x="530" y="0" key="CommitChangelistDialog2" timestamp="1602936222102">
+    <state x="530" y="0" key="CommitChangelistDialog2" timestamp="1603110712990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="530" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602936222102" />
+    <state x="530" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603110712990" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1601473397443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
